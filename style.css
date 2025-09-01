@@ -24,7 +24,7 @@
       position: relative;
       border-radius: 10px;
       overflow: hidden;
-      background: url("background.jpg") center/cover no-repeat; /* Ganti dengan background KTP */
+      background: url("background.jpg") center/cover no-repeat;
       box-shadow: 0 10px 30px rgba(0,0,0,.12);
     }
 
@@ -67,14 +67,13 @@
     .colon { text-align: center; color: #0a3e66; opacity: .6; }
     .value { font-weight: 520; }
 
-    /* field khusus RT/RW, KEL/DESA, Kecamatan */
     .field.indent .label {
-      padding-left: 10px; /* hanya label yg menjorok */
+      padding-left: 10px; 
     }
 
     .photo {
       width: 68px; height: 84px;
-      border-radius: 0px; /* kotak */
+      border-radius: 0px; 
       object-fit: cover;
       border: 1px solid rgba(9, 57, 100, .25);
       font-size: 8px;
